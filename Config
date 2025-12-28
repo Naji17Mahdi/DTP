@@ -1,0 +1,4 @@
+Switch>enable 
+Switch#configure 
+Switch(config)#interface gigabitEthernet 0/1
+Switch(config-if)#switchport mode dynamic desirable 
